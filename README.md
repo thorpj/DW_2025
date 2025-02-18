@@ -1,4 +1,4 @@
-# UWA Data Warehouse 2024 Demo Project
+# UWA Data Warehouse 2025 Demo Project
 
 A Data Warehouse project consists of several parts:
 
