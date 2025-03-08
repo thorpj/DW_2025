@@ -48,8 +48,7 @@ services:
       - "8888:8888"
       - "9092:9092"
     volumes:
-      - .:/usr/src/app
-      - jupyterlab-data:/home/jovyan
+      - jupyterlab-data:/usr/src/app
     environment:
       JUPYTER_ENABLE_LAB: "yes"
     platform: linux/amd64
