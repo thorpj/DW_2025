@@ -36,6 +36,8 @@ services:
       SA_PASSWORD: "YourStrongPassw0rd"
     ports:
       - "1433:1433"
+    volumes: 
+      - sqlserver_data:/var/opt/mssql
 
   jupyterlab:
     container_name: jupyterlab
@@ -57,3 +59,4 @@ volumes:
   postgres_data:
   pgadmin-data:
   jupyterlab-data:
+  sqlserver_data:
