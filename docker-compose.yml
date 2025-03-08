@@ -39,6 +39,7 @@ services:
 
   jupyterlab:
     container_name: jupyterlab
+    user: root
     build:
       context: ./
       dockerfile: Dockerfile_JupyterLab
